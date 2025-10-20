@@ -1,8 +1,12 @@
-# Nidhi Rao Portfolio
+Nidhi Portfolio - Next.js (converted)
 
-This is the static HTML version of Nidhi Rao's portfolio website, exported from Framer.
+Run locally:
 
-To deploy:
-1. Push this folder to GitHub.
-2. Import the repository into [Vercel](https://vercel.com).
-3. Add your custom domain in Vercel project settings.
+1. npm install
+2. npm run dev
+
+Notes:
+- This project keeps the original CSS extracted from the uploaded Framer HTML.
+- Sections are split into modular components that render the original HTML via dangerouslySetInnerHTML.
+- framer-motion is included for section animations.
+- Verify paths to images/fonts in globals.css; external Framer CDN links remain intact.
